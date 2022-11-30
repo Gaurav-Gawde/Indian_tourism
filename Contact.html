@@ -1,0 +1,264 @@
+<html>
+<head>
+	<title>Tourist place</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+	<style type="text/css">
+		.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .navbar{
+  position:absolute;
+  top:70px;
+  margin-left:15%;
+  width:70%
+  }
+  
+  .img_name{
+  margin-bottom:13%;
+  }
+  
+  .navbar1{
+  position:absolute;
+  top:70%;
+  padding-top:30px;
+  padding-bottom:30px;
+  }
+  
+  .navbar1 img{
+  margin-top:30px;
+  margin-bottom:30px;
+  }
+  
+  .visitplace:hover{
+  transform:scale(1.1);
+  }
+  
+  .payhead{
+  float:right;
+  font-family:arial;
+  padding-top:10%;
+  }
+  
+  .bd-highlight:hover{
+  color:blue;
+  transform:scale(1.1);
+  }
+  
+  .bd-highlight{
+  margin-left:10px;
+  margin-right:20px;
+  }
+  
+  
+  .img-thumbnail{
+  height:250px;
+  }
+  
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-xl bg-light shadow p-3 mb-5 bg-white rounded navbar-light sticky-top">
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<!--<li class="nav-item"><a class="nav-link"  href="Home.html" style="width: 10px; text-align: center;"><img src="img/tourist logo.png"/></a></li>-->
+					<li class="nav-item"><a class="nav-link"  href="website assignment1.html" style="width: 150px; text-align: center;"><b>HOME</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="About us.html#section1" style="width: 150px; text-align: center;"><b>ABOUT US</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="Places.html" style="width: 150px; text-align: center;"><b>PLACES</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="Payment.html" style="width: 150px; text-align: center;"><b>PAYMENT</b></a></li>
+					<li class="nav-item"><a class="nav-link"  href="Yoga.html" style="width: 150px; text-align: center;"><b>EVENTS</b></a></li>
+					<li class="nav-item active" style="border-bottom: 3px solid #fcba03; font-size: 17px;"><a class="nav-link"  href="Contact.html#section1" style="width: 150px; text-align: center;"><b>CONTACT</b></a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+	<nav class="container">
+		<nav class="navbar1 sticky-top d-flex justify-content-center ">
+				<a href="Payment.html">
+				<div class="p-2 bg-light bd-highlight d-sm-none d-md-block d-none">
+					<img src="img/payment.png" alt="globe-earth" width="70" height="70">
+						<div class="payhead">
+						<h2>Online Payment</h2>
+						<p>view more</p>
+						</div>						
+				</div>
+				</a>
+				
+				<a>
+				<div class="p-2 bg-light bd-highlight d-sm-none d-md-block d-none">
+					<img src="img/location.png" alt="globe-earth" width="70" height="70">
+						<div class="payhead" >
+						<h2>Best places to visit</h2>
+						<p>view more</p>
+						</div>
+				</div>
+				</a>
+
+				<a>
+				<div class="p-2 bg-light bd-highlight d-sm-none d-md-block d-none">
+					<img src="img/adventure.png" alt="globe-earth" width="80" height="70">
+						<div class="payhead">
+						<h2>Adventure & Sports</h2>
+						<p>view more</p>
+						</div>
+				</div>
+				</a>
+		</nav>
+	</nav>
+<header>
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+	<!-- Indicators -->
+	<ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	</ul>
+    <!-- The slideshow -->
+	<div class="carousel-inner">
+    <div class="carousel-item active">
+			<img src="img/Tajmahal.webp" alt="Tajmahal" >
+			<div class="carousel-caption d-none d-block img_name">
+				<h1>Taj Mahal</h1>
+				<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra</p>
+			</div>
+    </div>
+    <div class="carousel-item">
+			<img src="img/Red fort.webp" alt="Red fort" width="1100" height="500">
+			<div class="carousel-caption d-none d-block img_name">
+				<h1>Taj Mahal</h1>
+				<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra</p>
+			</div>
+    </div>
+    <div class="carousel-item">
+			<img src="img/India Gate.jpg" alt="India Gate" width="1100" height="500">
+			<div class="carousel-caption d-none d-block img_name">
+				<h1>Taj Mahal</h1>
+				<p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra</p>
+			</div>
+    </div>
+	</div>
+    <!-- Left and right controls -->
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+	</a>
+	</div>
+</header>
+<br></br>
+
+<section>
+	<div id="section1">
+		<div class="container">
+			<div class="contact" style="border:3px solid  #fcba03; border-radius: 20px;">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<h3 style="text-align: center; padding-top: 15px; ">Become a Member and get your customised Diet Plan. <br>Please Fill out the below details.</h3><br>
+					</div><br><br>
+
+					<div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 mx-auto">
+						<form class="form-inline"  name="form1" class="frm_message" method="post" autocomplete="off" onsubmit="return Reg()" style="padding-bottom: 20px;">
+							<div class="form-group">
+						      	<label for="Fname">First Name: &nbsp;&nbsp;</label>
+						      	<input type="text" class="form-control" id="Fname" placeholder="Enter First Name" name="Fname" required=""><span id="Fnamemsg"></span>
+						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						    <div class="form-group">
+						      	<label for="Lname">Last Name: &nbsp;&nbsp;</label>
+						      	<input type="text" class="form-control" id="Lname" placeholder="Enter Last Name" name="Lname" required=""><span id="Lnamemsg" required=""></span>
+						    </div><br><br><br>
+
+						    <div class="form-group">
+						     	<label for="Cnumber">Contact No: &nbsp;</label>
+						      	<input type="number" class="form-control" id="Cnumber" placeholder="Enter Contact No" name="Cnumber" required=""> <span id="mobilemsg"></span>
+						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						    <div class="form-group">
+						      	<label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						      	<input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required=""> <span id="emailmsg"></span>
+						    </div><br><br><br>
+
+						    <div class="form-group">
+						      	<label for="age">Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						      	<input type="number" class="form-control" id="age" placeholder="Enter Age" name="age" required=""> <span id="agemsg"></span>
+						    </div>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						    <!--<div class="form-group">
+						      	<label for="height">Height: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						      	<input type="number" class="form-control" id="height" placeholder="Enter Height" name="height" required=""> <span id="heightmsg"></span>
+						    </div><br><br><br><br>
+
+						    <div class="form-group">
+						      	<label for="Weight">Weight: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+						      	<input type="number" class="form-control" id="Weight" placeholder="Enter Weight" name="Weight" required=""> <span id="Weightmsg"></span>
+						    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						    <div class="form-group">
+						      	<label for="bodytype">Body Type: &nbsp;&nbsp;</label>
+						     	<select class="form-control" name="bodytype" id="bodytype" required="">
+									<option value="0">-Select Body Type-</option>
+									<option value="1">Underweight</option>
+									<option value="2">Normal</option>
+									<option value="3">Overweight</option>
+								</select> <span id="bodytypemsg"></span>
+						    </div><br>-->
+
+						    <div class="form-check">
+						    	<label>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+							  	<label style="font-weight: normal; font-size: 17px;" class="form-check-label">
+							    <input type="radio" class="form-check-input" name="gender">Male
+							  	</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							
+							  	<label style="font-weight: normal; font-size: 17px;" class="form-check-label">
+							    <input type="radio" class="form-check-input" name="gender">Female
+							  	</label><span id="gendermsg"></span>
+							</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+							
+						    <!--<div class="form-check"><label>Looking for: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+							  	<label style="font-weight: normal; font-size: 17px;" class="form-check-label">
+							    <input type="radio" class="form-check-input" name="loss"> Weight Loss
+							  	</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							
+							  	<label style="font-weight: normal; font-size: 17px;" class="form-check-label">
+							    <input type="radio" class="form-check-input" name="loss">Weight Gain
+							  	</label> <br><span id="LossGainmsg"></span>
+							</div>--><br><br><br>
+							
+
+						    <input style="font-size: 18px; width: 120px; background: #fcba03; border:1px solid #77b300;"  type="submit" name="" value="SUBMIT" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+						    <input style="font-size: 18px; width: 120px;" type="Reset" name="" value="RESET" class="btn btn-danger">
+						</form>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</div>	
+</section><br> 
+
+	<footer class="bg-dark">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4>@ 2021 Healty Lifestyle . All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
